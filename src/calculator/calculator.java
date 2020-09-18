@@ -1,5 +1,7 @@
 package calculator;
 
+import java.awt.Dimension;
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
@@ -44,8 +46,16 @@ public class calculator {
 		
 		frame.add(panel);
 		panel.setBackground(color.LiGHT_GRAY);
-		Boder border = BorderFactory.createLineBorder(color.Voilet);
+		Boder Border border = BorderFactory.createLineBorder(color.Voilet,4);
 		
+		panel.add(textarea);
+		textarea.setBackground(Color,BLACK);
+		Border tborder = BorderFactory.createLineBorder(Color,Blue,3);
+		textarea.setBorder(tborder);
+		font font new Font("arial",Font.Bold,33);
+		textarea.setFont(font);
+		textarea.setForeground(Color.WHITE);
+		textarea.setPreferredSize(new Dimension(2,10));
 	}
 	
 }
