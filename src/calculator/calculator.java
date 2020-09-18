@@ -1,10 +1,16 @@
 package calculator;
 
 import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.color;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
+import javax.swing.BorderFactory;
+import javax.swing.JTextArea;
+import javax.swing.border.Border;
+
 
 public class calculator {
 	
