@@ -22,4 +22,24 @@ public class calculator {
 	JButton button8 = new JButton();
 	JButton button9 = new JButton();
 	JButton button0 = new JButton();
+	
+	JButton buttonadd = new JButton();
+	JButton buttonsub = new JButton();
+	JButton buttonmul = new JButton();
+	JButton buttondiv = new JButton();
+	JButton buttonclear = new JButton();
+	JButton buttondot = new JButton();
+	JButton buttonequal = new JButton();
+	
+	double number1,number2,result;
+	int addc = 0,mulc=0,divc = 0,subc =0;
+	
+	public calculator() {
+		frame.setSize(400,350);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+		frame.setTitle("");
+		
+	}
+	
 }
