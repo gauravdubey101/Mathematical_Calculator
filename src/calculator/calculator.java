@@ -38,7 +38,13 @@ public class calculator {
 		frame.setSize(400,350);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
-		frame.setTitle("");
+		frame.setTitle("Gaurav");
+		
+		//frame.setResizable(false);
+		
+		frame.add(panel);
+		panel.setBackground(color.LiGHT_GRAY);
+		Boder border = BorderFactory.createLineBorder(color.Voilet);
 		
 	}
 	
